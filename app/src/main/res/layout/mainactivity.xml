@@ -4,9 +4,9 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/ma_button"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="133dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Button 1" />
+        android:text="Button" />
 </LinearLayout>
