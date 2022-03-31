@@ -11,11 +11,13 @@
         android:theme="@style/Theme.EasyTools">
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
-            <intent-filler>
+            android:exported="true">
+            <intent-filter>
                 <action android:name="android.intent.action.Main"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filler>
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
