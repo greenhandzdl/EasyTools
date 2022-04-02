@@ -1,9 +1,15 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
 }
 
 android {
+    signingConfigs {
+        greenhandzdl {
+        }
+    }
     compileSdk 32
 
     defaultConfig {
