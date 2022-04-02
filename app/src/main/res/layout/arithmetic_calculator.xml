@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/arithmeticCalculator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    tools:context=".arithmeticCalculator">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/arithmeticCalculatorHistory"
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:text="@string/history"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/material_on_surface_emphasis_high_type" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/arithmeticCalculatorOutputNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/output"
+                    android:textColor="@color/material_on_background_emphasis_high_type"
+                    android:textSize="48sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editTextTextPersonName"
+                        android:layout_width="match_parent"
+                        android:layout_height="437dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="@string/input" />
+
+                    <Button
+                        android:id="@+id/arithmeticCalculatorSubmit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Submit" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

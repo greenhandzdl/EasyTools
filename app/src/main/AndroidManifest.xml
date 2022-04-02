@@ -10,13 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Easytools">
         <activity
-            android:name=".MainActivity"
+            android:name=".arithmeticCalculator"
+            android:exported="true"
+            android:label="@string/title_activity_function_easy_calc"
+            android:theme="@style/Theme.Easytools.NoActionBar" />
+        <activity
+            android:name=".mainActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"></action>
-                <category android:name="android.intent.category.LAUNCHER"></category>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>>
+    </application>
 
 </manifest>
