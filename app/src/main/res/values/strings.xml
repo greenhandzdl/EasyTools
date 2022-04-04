@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">easytools</string>
+    <string name="app_name">Easy Tools</string>
     <string name="title_activity_function_easy_calc">arithmetic calculator</string>
     <string name="input">"This is an input box, please feel free to enter！（Notice:If You Can,You'd better delete all fonts"</string>
-    <string name="output">output</string>
-    <string name="history">history</string>
+    <string name="output">Output</string>
+    <string name="history">History</string>
 </resources>
