@@ -9,10 +9,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Easytools">
         <activity
+            android:name="com.idlefish.flutterboost.containers.FlutterBoostActivity"
+            android:theme="@style/Theme.AppCompat"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize" >
+
+        </activity>
+        <meta-data android:name="flutterEmbedding"
+            android:value="2">
+        </meta-data>
+
+        <activity
             android:name=".arithmeticCalculator"
             android:exported="true"
             android:label="@string/title_activity_function_easy_calc"
-            android:theme="@style/Theme.Easytools.NoActionBar" />
+            android:theme="@style/Theme.Easytools.ActionBar" />
         <activity
             android:name=".mainActivity"
             android:exported="true"
